@@ -14,6 +14,8 @@
 		D8111D8F20AF6F2F00EF92FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8111D8D20AF6F2F00EF92FA /* LaunchScreen.storyboard */; };
 		D8111D9A20AF6F3000EF92FA /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8111D9920AF6F3000EF92FA /* testTests.swift */; };
 		D8111DA520AF6F3000EF92FA /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8111DA420AF6F3000EF92FA /* testUITests.swift */; };
+		D83A3C2F20B0ADDA00C9F267 /* DateAlreadyEntered.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83A3C2E20B0ADDA00C9F267 /* DateAlreadyEntered.storyboard */; };
+		D83A3C3120B0B07100C9F267 /* 2ndController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A3C3020B0B07100C9F267 /* 2ndController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8111D8120AF6F2F00EF92FA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8111D8120AF6F2F00EF92FA /* BirthdayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8111D8420AF6F2F00EF92FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8111D8620AF6F2F00EF92FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8111D8920AF6F2F00EF92FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8111D8B20AF6F2F00EF92FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8111D8E20AF6F2F00EF92FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8111D9020AF6F2F00EF92FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8111D9520AF6F3000EF92FA /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8111D9520AF6F3000EF92FA /* BirthdayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8111D9920AF6F3000EF92FA /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		D8111D9B20AF6F3000EF92FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8111DA020AF6F3000EF92FA /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8111DA020AF6F3000EF92FA /* BirthdayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8111DA420AF6F3000EF92FA /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		D8111DA620AF6F3000EF92FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83A3C2E20B0ADDA00C9F267 /* DateAlreadyEntered.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DateAlreadyEntered.storyboard; sourceTree = "<group>"; };
+		D83A3C3020B0B07100C9F267 /* 2ndController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +87,14 @@
 				D8111D8220AF6F2F00EF92FA /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		D8111D8220AF6F2F00EF92FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8111D8120AF6F2F00EF92FA /* test.app */,
-				D8111D9520AF6F3000EF92FA /* testTests.xctest */,
-				D8111DA020AF6F3000EF92FA /* testUITests.xctest */,
+				D8111D8120AF6F2F00EF92FA /* BirthdayApp.app */,
+				D8111D9520AF6F3000EF92FA /* BirthdayAppTests.xctest */,
+				D8111DA020AF6F3000EF92FA /* BirthdayAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +105,8 @@
 				D8111D8420AF6F2F00EF92FA /* AppDelegate.swift */,
 				D8111D8620AF6F2F00EF92FA /* ViewController.swift */,
 				D8111D8820AF6F2F00EF92FA /* Main.storyboard */,
+				D83A3C3020B0B07100C9F267 /* 2ndController.swift */,
+				D83A3C2E20B0ADDA00C9F267 /* DateAlreadyEntered.storyboard */,
 				D8111D8B20AF6F2F00EF92FA /* Assets.xcassets */,
 				D8111D8D20AF6F2F00EF92FA /* LaunchScreen.storyboard */,
 				D8111D9020AF6F2F00EF92FA /* Info.plist */,
@@ -128,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8111D8020AF6F2F00EF92FA /* test */ = {
+		D8111D8020AF6F2F00EF92FA /* BirthdayApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8111DA920AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = D8111DA920AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayApp" */;
 			buildPhases = (
 				D8111D7D20AF6F2F00EF92FA /* Sources */,
 				D8111D7E20AF6F2F00EF92FA /* Frameworks */,
@@ -140,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = BirthdayApp;
 			productName = test;
-			productReference = D8111D8120AF6F2F00EF92FA /* test.app */;
+			productReference = D8111D8120AF6F2F00EF92FA /* BirthdayApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8111D9420AF6F3000EF92FA /* testTests */ = {
+		D8111D9420AF6F3000EF92FA /* BirthdayAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8111DAC20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = D8111DAC20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayAppTests" */;
 			buildPhases = (
 				D8111D9120AF6F3000EF92FA /* Sources */,
 				D8111D9220AF6F3000EF92FA /* Frameworks */,
@@ -158,14 +165,14 @@
 			dependencies = (
 				D8111D9720AF6F3000EF92FA /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = BirthdayAppTests;
 			productName = testTests;
-			productReference = D8111D9520AF6F3000EF92FA /* testTests.xctest */;
+			productReference = D8111D9520AF6F3000EF92FA /* BirthdayAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D8111D9F20AF6F3000EF92FA /* testUITests */ = {
+		D8111D9F20AF6F3000EF92FA /* BirthdayAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8111DAF20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = D8111DAF20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayAppUITests" */;
 			buildPhases = (
 				D8111D9C20AF6F3000EF92FA /* Sources */,
 				D8111D9D20AF6F3000EF92FA /* Frameworks */,
@@ -176,9 +183,9 @@
 			dependencies = (
 				D8111DA220AF6F3000EF92FA /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = BirthdayAppUITests;
 			productName = testUITests;
-			productReference = D8111DA020AF6F3000EF92FA /* testUITests.xctest */;
+			productReference = D8111DA020AF6F3000EF92FA /* BirthdayAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8111D7C20AF6F2F00EF92FA /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = D8111D7C20AF6F2F00EF92FA /* Build configuration list for PBXProject "BirthdayApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8111D8020AF6F2F00EF92FA /* test */,
-				D8111D9420AF6F3000EF92FA /* testTests */,
-				D8111D9F20AF6F3000EF92FA /* testUITests */,
+				D8111D8020AF6F2F00EF92FA /* BirthdayApp */,
+				D8111D9420AF6F3000EF92FA /* BirthdayAppTests */,
+				D8111D9F20AF6F3000EF92FA /* BirthdayAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +242,7 @@
 				D8111D8F20AF6F2F00EF92FA /* LaunchScreen.storyboard in Resources */,
 				D8111D8C20AF6F2F00EF92FA /* Assets.xcassets in Resources */,
 				D8111D8A20AF6F2F00EF92FA /* Main.storyboard in Resources */,
+				D83A3C2F20B0ADDA00C9F267 /* DateAlreadyEntered.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8111D8720AF6F2F00EF92FA /* ViewController.swift in Sources */,
+				D83A3C3120B0B07100C9F267 /* 2ndController.swift in Sources */,
 				D8111D8520AF6F2F00EF92FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		D8111D9720AF6F3000EF92FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8111D8020AF6F2F00EF92FA /* test */;
+			target = D8111D8020AF6F2F00EF92FA /* BirthdayApp */;
 			targetProxy = D8111D9620AF6F3000EF92FA /* PBXContainerItemProxy */;
 		};
 		D8111DA220AF6F3000EF92FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8111D8020AF6F2F00EF92FA /* test */;
+			target = D8111D8020AF6F2F00EF92FA /* BirthdayApp */;
 			targetProxy = D8111DA120AF6F3000EF92FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -465,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayApp.app/BirthdayApp";
 			};
 			name = Debug;
 		};
@@ -482,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayApp.app/BirthdayApp";
 			};
 			name = Release;
 		};
@@ -521,7 +530,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8111D7C20AF6F2F00EF92FA /* Build configuration list for PBXProject "test" */ = {
+		D8111D7C20AF6F2F00EF92FA /* Build configuration list for PBXProject "BirthdayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8111DA720AF6F3000EF92FA /* Debug */,
@@ -530,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8111DA920AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "test" */ = {
+		D8111DA920AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8111DAA20AF6F3000EF92FA /* Debug */,
@@ -539,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8111DAC20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		D8111DAC20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8111DAD20AF6F3000EF92FA /* Debug */,
@@ -548,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8111DAF20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		D8111DAF20AF6F3000EF92FA /* Build configuration list for PBXNativeTarget "BirthdayAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8111DB020AF6F3000EF92FA /* Debug */,
